@@ -1,15 +1,22 @@
 <p align="center"><img src="./readme-banner.png" alt="ultrastable: coding agents write code, Ultrastable runs the system" width="100%"></p>
 
-# Coding agents write code. Ultrastable runs the system.
+# Say what you want. Ultrastable builds and runs it.
 
-Ultrastable is an autonomous system that takes one idea and bootstraps what a new venture needs: development, branding, a provisional-patent filing package, a business plan, search and analytics presence, and marketing. Then it keeps improving itself.
+Ultrastable is for people who can say what they want but are not coders and do not know what they do not know. It works out what it needs to know, asks in plain words, writes its own specifications and plans, and builds and runs the system under the discipline of a professional project office: initiating, planning, executing, monitoring, closing. You work from three simple screens with buttons first and a prompt second. You never have to write code or look under the hood.
 
-It manages itself, and you steer when you want to, so you do not need a development team, a patent lawyer or a marketing firm to get going. Anything you can describe is something it can start on.
+It runs on Cloudflare Workers today and is designed to run on any platform (a Google Cloud Run adapter is built).
+
+## What is here
+- [`workers`](https://github.com/ultrastable/workers): the code.
+- [`spec`](https://github.com/ultrastable/spec): the architectural specifications and documentation, including what Ultrastable does and does not do by default.
+- [`license`](https://github.com/ultrastable/license): free for non-commercial use; commercial use needs a license.
+
+## Not what it is
+By default Ultrastable does not write business plans, file patents or trademarks, give legal or financial advice, or run marketing or outreach.
 
 ## Where to find us
-- Web: [ultrastable.io](https://ultrastable.io) (also ultrastable.app and ultrastable.net)
-- Proving ground: [QNFO](https://github.com/QNFO) is the first test case showing the system works in practice.
-- Our core platform repository is private for now. Pilots and partnerships: pilot@ultrastable.io
+- Web: [ultrastable.io](https://ultrastable.io)
+- Pilots and partnerships: pilot@ultrastable.io
 
 ## Status
-Early and in active development, working with a small number of design partners. Legal and patent outputs are drafts for professional review, not legal advice. Financial back-end is not part of what we do. Technical detail is intentionally not public yet.
+Early and in active development. See each specification's status section for what is built, running and planned.
