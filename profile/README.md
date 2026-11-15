@@ -12,7 +12,7 @@ It runs on Cloudflare Workers today and is designed to run on any platform (a Go
 - [`license`](https://github.com/ultrastable/license): free for non-commercial use; commercial use needs a license.
 
 ## Not what it is
-By default Ultrastable does not write business plans, file patents or trademarks, give legal or financial advice, or run marketing or outreach.
+By default Ultrastable does not write business plans, file trademarks or other legal documents, give legal or financial advice, or run marketing or outreach.
 
 ## Where to find us
 - Web: [ultrastable.io](https://ultrastable.io)
