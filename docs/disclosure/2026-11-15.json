@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/ultrastable/.github",
+  "made_public": "2026-11-10",
+  "snapshot_commit": "9131baebd5857d58fad52dded2e2c44945c51d6e",
+  "snapshot_tag": "disclosure-2026-11-15",
+  "license": "LicenseRef-Ultrastable-USL-1.0",
+  "license_blob": "650d390828dd1f092f09a7fdb1593e4829ced803",
+  "software_heritage": {
+    "save_request_id": 2653133,
+    "requested_at": "2026-11-15",
+    "origin": "https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/ultrastable/.github"
+  },
+  "pre_publication_audit": {
+    "scope": "full history, all refs, issue and pull request text",
+    "trufflehog_3.99.9_verified_secrets": 0,
+    "gitleaks_8.30.1_live_credentials": 0
+  }
+}
