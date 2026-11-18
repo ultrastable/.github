@@ -1,3 +1,5 @@
+> **License: free for non-commercial use; commercial use requires a license and shares revenue with the Licensor.** See [LICENSE](LICENSE) (Ultrastable License v1.0, USL-1.0, source-available, not open source) and [COMMERCIAL-TERMS.md](COMMERCIAL-TERMS.md).
+
 <p align="center"><img src="profile/ultrastable-icon-512.png" alt="ultrastable" width="96"></p>
 
 # ultrastable/.github
