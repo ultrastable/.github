@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "name": "Ultrastable organization profile",
+    "slug": ".github",
+    "summary": "The organization's public profile page and community health defaults.",
+    "repo": "ultrastable/.github",
+    "public_url": null,
+    "license": "LicenseRef-Ultrastable-USL-1.0",
+    "topics": [
+      "community-health",
+      "ultrastable"
+    ],
+    "layer": "org-profile",
+    "parent": "ultrastable/ultrastable",
+    "visibility": "public",
+    "visibility_reason": "GitHub shows an org profile only from a public .github repository",
+    "status": "live",
+    "runs_as": []
+  }
+}
