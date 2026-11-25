@@ -1,0 +1,22 @@
+name: openstd
+# OPEN-STANDARDS-1 (Rowan, 2026-11-25): fails a change that adds a bespoke format where a registered open standard covers it.
+# budget: ~0.2 min per pull request
+# trigger: pull requests and pushes to main; the check reads only tracked files
+# free-alternative: a cloud-hosted agent session runs `python3 tools/openstd.py`
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: openstd-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  openstd:
+    if: ${{ vars.HALT != '1' && (github.event.pull_request.draft != true) }}  # HALT-1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - run: python3 tools/openstd.py
