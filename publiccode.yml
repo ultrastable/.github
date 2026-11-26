@@ -1,0 +1,20 @@
+# https://yml.publiccode.tools/
+publiccodeYmlVersion: "0.4"
+name: "Ultrastable organization profile"
+url: "https://github.com/ultrastable/.github"
+platforms:
+  - web
+developmentStatus: stable
+softwareType: standalone/web
+legal:
+  license: "LicenseRef-Ultrastable-USL-1.0"
+maintenance:
+  type: internal
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en
+description:
+  en:
+    shortDescription: "The organization's public profile page and community health defaults."
+    longDescription: "The organization's public profile page and community health defaults."

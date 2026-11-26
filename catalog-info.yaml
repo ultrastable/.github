@@ -1,0 +1,17 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github
+  title: "Ultrastable organization profile"
+  description: "The organization's public profile page and community health defaults."
+  annotations:
+    github.com/project-slug: ultrastable/.github
+  links:
+    - url: "https://github.com/ultrastable/.github"
+      title: "Source"
+spec:
+  type: org-profile
+  lifecycle: production
+  owner: "group:default/ultrastable"
+  system: ultrastable
