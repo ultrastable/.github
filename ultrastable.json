@@ -15,6 +15,7 @@
     "visibility": "public",
     "visibility_reason": "GitHub shows an org profile only from a public .github repository",
     "status": "live",
-    "runs_as": []
+    "runs_as": [],
+    "loop": "GitHub reads these community health defaults for every repository of the organization, and the profile page is regenerated from the registries so it lists every system with its live address and repository."
   }
 }

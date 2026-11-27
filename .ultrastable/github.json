@@ -1,0 +1,20 @@
+{
+ "repo": "ultrastable/.github",
+ "description": "The organization's public profile page and community health defaults.",
+ "homepage": "",
+ "topics": [
+  "community-health",
+  "ultrastable"
+ ],
+ "settings": {
+  "has_wiki": false,
+  "allow_squash_merge": true,
+  "allow_merge_commit": false,
+  "allow_rebase_merge": false,
+  "allow_auto_merge": true,
+  "allow_update_branch": true,
+  "delete_branch_on_merge": true,
+  "private": false,
+  "is_template": false
+ }
+}

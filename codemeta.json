@@ -1,0 +1,20 @@
+{
+ "@context": "https://w3id.org/codemeta/3.0",
+ "@type": "SoftwareSourceCode",
+ "name": "Ultrastable organization profile",
+ "description": "The organization's public profile page and community health defaults.",
+ "codeRepository": "https://github.com/ultrastable/.github",
+ "url": "https://github.com/ultrastable/.github",
+ "license": "https://github.com/ultrastable/.github/blob/main/LICENSE",
+ "author": [
+  {
+   "@type": "Person",
+   "@id": "https://orcid.org/0009-0002-4317-5604",
+   "name": "Rowan Brad Quni-Gudzinas"
+  }
+ ],
+ "keywords": [
+  "community-health",
+  "ultrastable"
+ ]
+}

@@ -1,9 +1,20 @@
 # Ultrastable organization profile
 
-> The organization's public profile page and community health defaults. Licence: LicenseRef-Ultrastable-USL-1.0.
+> The organization's public profile page and community health defaults.
+
+GitHub reads these community health defaults for every repository of the organization, and the profile page is regenerated from the registries so it lists every system with its live address and repository.
 
 ## Start here
 
+- [README.md](README.md): what it is, where it runs and how it runs
 - [AGENTS.md](AGENTS.md): instructions for any coding agent
-- [README.md](README.md): what this repository holds
-- [ultrastable.json](ultrastable.json): the machine-readable manifest
+- [ultrastable.json](ultrastable.json): the manifest this file, the README blocks, CITATION.cff, publiccode.yml and codemeta.json are rendered from
+- [codemeta.json](codemeta.json): software metadata (CodeMeta 3.0)
+
+## Optional
+
+- [Source](https://github.com/ultrastable/.github): the repository
+- [LICENSE](LICENSE): the licence, LicenseRef-Ultrastable-USL-1.0
+- [CONTRIBUTING.md](CONTRIBUTING.md): how work is contributed
+- [SECURITY.md](SECURITY.md): how to report a vulnerability
+- [CHANGELOG.md](CHANGELOG.md): what changed, release by release
